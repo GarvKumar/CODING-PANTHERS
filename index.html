@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Panthers</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Coding Panthers</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Services</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Explore</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./img/btn3.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore the Coding Skills</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT FOR YOU</h1>
+            <a href="" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!--Events -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img2.jpg" alt="">
+                <h4>Basics Programing</h4>
+                <P>In this event we given basics Programing introduction</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/img1.jpg" alt="">
+                <h4>What is Coding</h4>
+                <P>Overview how to Write a Code</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+        <h1>EXPLORE THE CODING WORLD</h1>
+        <p>In this website you develope your coding skills and how to get a good placement in your college</p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>We are going to some programing vaction tours</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/img5.jpg" alt="">
+                    <img src="./img/img6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Flat No :302 Sbi Residency Saaveri Greater Noida | Phone: 9368774869 | Email: Garv20052001@gmail.com</p>
+        <p>Copyright © 2022 Coding Panthers</p>
+    </section>
+
+
+
+
+
+
+    <script>
+        const menuBtn=document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
